@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
     <Header />
-    <Tabs onChange={callback} type="card">
+    <Tabs onChange={callback} type="card" size={'large'} >
       <TabPane tab="CBC" key="1" forceRender>
         <CBC />
       </TabPane>

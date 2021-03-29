@@ -3,19 +3,13 @@ import {HashRouter as Router, Route} from 'react-router-dom'
 import {ApolloProvider} from '@apollo/client'
 import client from './apolloClient'
 import Home from './components/Home'
-import Detail from './components/Detail'
 
 import  "./App.css"
 
 const App = () => (
     <ApolloProvider client={client}>
-      <Router>
-        <React.Fragment>
-          <Route exact={true} path={"/"} component={Home} />
-          <Route path={"/details/:movieId"} component={Detail} />
-        </React.Fragment>
-      </Router>
-      <div className="App" />
+       {/* <div className="App" /> */}
+      <Home />
     </ApolloProvider>
 )
 
@@ -23,5 +17,4 @@ const App = () => (
 export default App;
 
 //https://newsapi.org/
-//https://github.com/saebomp/news_app/blob/master/src/service/api.js
-//https://www.newline.co/@amandeepmittal/how-to-build-react-native-apps-with-graphql-and-apollo--d74eb12e
+//https://www.newline.co/@amandeepmittal/how-to-build-react-native-apps-with-graphql-and-apollo--d74eb12e 
