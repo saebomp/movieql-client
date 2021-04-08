@@ -2,6 +2,7 @@
 - Fetched data from a REST Endpoint with Apollo using GraphQL query language.
 - Displayed results from the remote API endpoint.
 - Fetched new data when the tab is switched.
+- Built grid layouts with Ant design to make the layout responsive and save time by using predefined functions. 
 ![newsapp](https://user-images.githubusercontent.com/60532954/103606546-071e2880-4f5a-11eb-8508-090269ee4a0c.png)
 ## Technologies
 React / Responsive Web / Graphql / CSS / Ant Design
