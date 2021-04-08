@@ -8,6 +8,7 @@ React / Responsive Web / Graphql / CSS / Ant Design
 
 ## Setup
 npm start <br />
+News api is accepting requests only from localhost. 
 
 ## Status 
 Project is finished
