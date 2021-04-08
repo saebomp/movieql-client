@@ -7,13 +7,13 @@ const restLink = new RestLink({
   headers: {
     Authorization: '16849f05254a4414971358ff80e77661'
   },
-  fetchOptions: {
-    mode: 'no-cors'
-}
 })
 
 export const client = new ApolloClient({
   link: restLink,
-  cache: new InMemoryCache()
+  cache: new InMemoryCache(),
+  fetchOptions: {
+    mode: 'no-cors',
+  },
 })
 export default client;
