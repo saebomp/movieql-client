@@ -1,4 +1,4 @@
-# NEWS app
+# News Box
 - Fetched data from a REST Endpoint with Apollo using GraphQL query language.
 - Displayed results from the remote API endpoint.
 - Fetched new data when the tab is switched.
